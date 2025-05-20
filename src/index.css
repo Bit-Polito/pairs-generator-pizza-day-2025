@@ -32,4 +32,20 @@ body {
 
 p, span, div {
   font-weight: bold !important;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(-3deg);
+  }
+  50% {
+    transform: rotate(3deg);
+  }
+  100% {
+    transform: rotate(-3deg);
+  }
+}
+
+.rotating-icon {
+  animation: rotate 0.8s steps(1) infinite;
 } 

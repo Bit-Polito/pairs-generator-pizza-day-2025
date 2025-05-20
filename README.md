@@ -7,6 +7,17 @@ Un'applicazione web per generare squadre casuali per Il Pizza Day 2025.
 - Inserimento nomi dei partecipanti
 - Generazione casuale di squadre
 - Algoritmo Fisher-Yates per una distribuzione veramente casuale
+- Download delle squadre in formato Excel
+
+## 🎲 Algoritmo di Shuffle
+
+L'applicazione utilizza l'algoritmo Fisher-Yates (anche noto come Knuth shuffle) per garantire una distribuzione veramente casuale dei partecipanti nelle squadre. La casualità è garantita utilizzando `crypto.getRandomValues()`, che fornisce numeri casuali crittograficamente sicuri basati su fonti di entropia del sistema operativo.
+
+Questo approccio offre diversi vantaggi:
+- Distribuzione uniforme e imparziale
+- Imprevedibilità dei risultati
+- Sicurezza crittografica
+- Prevenzione di manipolazioni
 
 ## 🛠️ Tecnologie Utilizzate
 
